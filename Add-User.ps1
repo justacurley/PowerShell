@@ -1,4 +1,4 @@
-﻿
+﻿#Pipe Get-SPONewUser to Add-User 
 
 Function Replicate-AD { 
     if (!($localcredentials)){$localcredentials=Get-Credential}
